@@ -1,0 +1,83 @@
+.element {
+  font-size: 15px;
+  margin-right: 85px;
+  margin-left: 20px;
+}
+
+/*CSS3 STROKE EFFECT*/
+#mainNav ul {
+  list-style: none;
+  margin: 0;
+}
+#mainNav ul li {
+  display: inline-block;
+  display: inline;
+  margin: 15px;
+}
+#mainNav ul li a {
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #000000;
+}
+#mainNav ul li a,
+#mainNav ul li a:after,
+#mainNav ul li a:before {
+  transition: all 0.5s;
+}
+#mainNav ul li a:hover {
+  color: #e34f25;
+}
+
+/* stroke */
+#mainNav.stroke ul li a {
+  position: relative;
+}
+#mainNav.stroke ul li a:after,
+#mainNav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #111111;
+  height: 1px;
+}
+#mainNav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+#mainNav ul li a {
+  transition: all 1s;
+}
+
+#mainNav ul li a:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+#mainNav ul li a:hover {
+  color: #383636;
+  z-index: 1;
+}
+#mainNav ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  opacity: 1;
+}
+
+.navBar {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  height: 50px;
+  align-self: right;
+  display: flex;
+  overflow: hidden;
+  padding: 12px;
+  font-family: "Advent Pro", sans-serif;
+  display: flex;
+  direction: ltr;
+}
