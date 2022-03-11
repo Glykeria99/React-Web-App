@@ -1,0 +1,40 @@
+.title {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 26px;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(73, 73, 73);
+  border-top: 1px solid rgb(73, 73, 73);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post_title {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.container {
+  width: 100%;
+}
+
+.post {
+  font-family: "Advent Pro", sans-serif;
+  background-color: rgb(255, 241, 224);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 2px;
+  position: center;
+  text-align: left;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  display: block !important;
+  float: none !important;
+}
+
+.description {
+  font-size: 12px;
+}
