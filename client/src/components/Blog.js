@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import styles from './Blog.module.css'
+import './Blog.css'
 
 
 const Post = props => (
@@ -39,18 +39,17 @@ export default class PostsList extends Component {
 
   render() {
     const listItems = this.state.posts.map((d) =>
-    <div className={styles.post}>
-     <div className={styles.post_title}>{d.title}</div>
-     <div className={styles.description}>{d.description}</div>
-     <div>{(new Date(d.date)).toLocaleDateString()}</div>
+    <div className='post'>
+      <div className='post-image'></div>
+     <div className='post_title'>{d.title}</div>
+     <div className='description'>{d.description}</div>
+     <div className='date'>Ημερομηνία: {(new Date(d.date)).toLocaleDateString()}</div>
     </div>
      );
     return (
-      <div>
-        <h3 className={styles.title}>Ανακοινώσεις</h3>
-          <div className={styles.container}>
+      <div className='posts-container'>
+        <h3 className='blog-title'>Ανακοινώσεις</h3>
             { listItems }
-          </div>
       </div>
     )
   }

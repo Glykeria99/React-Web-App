@@ -1,0 +1,61 @@
+.blog-title {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 32px;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(73, 73, 73);
+  border-top: 1px solid rgb(73, 73, 73);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post_title {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.posts-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241, 215, 204);
+  /* Set rules to fill background */
+
+  overflow: hidden;
+  min-width: 1024px;
+}
+
+.post {
+  font-family: "Advent Pro", sans-serif;
+  background-color: rgb(255, 241, 224);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 2px;
+  position: center;
+  text-align: left;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  display: block !important;
+  float: none !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+  font-size: 15px;
+}
+
+.date {
+  font-size: 14px;
+  color: brown;
+}
+
+.post-image {
+  background-image: url("../../src/images/header.jpg");
+  height: 150px;
+  background-size: cover;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+}

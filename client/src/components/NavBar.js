@@ -1,11 +1,12 @@
 import { Component } from "react";
-import styles from './NavBar.module.css'
+import './NavBar.css'
 import { Link } from "react-router-dom";
+
 class MyNavbar extends Component{
     render() {
         return (
-           <div className={styles.navBar}>
-  <nav className={styles.stroke} id={styles.mainNav}>
+           <div className='navBar'>
+  <nav className='stroke' id='mainNav'>
 <ul>
         	<li><Link to ="/">Αρχική</Link></li>
             <li><Link to ="/about">Σχετικά</Link></li>

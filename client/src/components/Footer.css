@@ -1,0 +1,55 @@
+.my-6 {
+  background-color: rgb(236, 213, 206);
+  width: 100% !important;
+  overflow: hidden;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
+.mycontainer {
+  margin-bottom: -20px;
+  background-color: rgb(212, 165, 151) !important;
+  width: 100% !important;
+  height: 100%;
+  font-family: "Advent Pro", sans-serif;
+}
+
+fa,
+.fas,
+.fab {
+  font-family: FontAwesome !important;
+  margin-left: 30px !important;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 30px !important;
+}
+
+.me-4 {
+  font-size: 15px !important;
+}
+
+.p-1 {
+  margin-bottom: 20px;
+}
+.col-md-10 {
+  text-align: left;
+}
+.fa-location-dot,
+.fa-phone {
+  margin-left: 5px;
+  font-size: 20px !important;
+  align-items: left !important;
+  flex: 1;
+}
+.parent {
+  display: flex;
+}
+.phone-number {
+  letter-spacing: 2px;
+}
+.phone-number,
+.location {
+  font-family: "Advent Pro", sans-serif;
+}
